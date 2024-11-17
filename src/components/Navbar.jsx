@@ -11,14 +11,14 @@ export default function Navbar() {
                 </a>
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text2xl">
-                <a href="http://www.linkedin.com/in/yor-linkdin-profile"
+                <a href="https://www.linkedin.com/in/paman-yuthmika"
                     target="_blank"
                     rel="nooper noreferrer"
                     aria-label="linkdin">
                     <FaLinkedin/>
                 </a>
 
-                <a href="http://www.GitHub.com/in/yor-GitHub-profile"
+                <a href="https://github.com/pamanyuthmika"
                     target="_blank"
                     rel="nooper noreferrer"
                     aria-label="GitHub">
