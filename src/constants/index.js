@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
+import project5 from "../assets/projects/project-5.webp"; // New image import
+import project6 from "../assets/projects/project-1.webp"; // New image import
 
 export const HERO_CONTENT = `I am an enthusiastic IT undergraduate student with a strong passion for technology, programming, and crafting intuitive user experiences. My journey in technology has equipped me with skills in application development, UI/UX design, and full-stack web development.`;
 
@@ -38,14 +40,13 @@ export const EXPERIENCES = [
   },
 ];
 
-
 export const PROJECTS = [
   {
     title: "Vehicle Service Center Website",
     image: project1,
     description:
       "A comprehensive system to manage employees in a car service center. Features include employee registration, attendance tracking, and payroll management.",
-    technologies: [ "React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB"],
   },
   {
     title: "To Do List Application (Android Studio)",
@@ -55,7 +56,7 @@ export const PROJECTS = [
     technologies: ["Kotlin", "SharedPreferences"],
   },
   {
-    title: "portfolio Website",
+    title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
@@ -67,6 +68,20 @@ export const PROJECTS = [
     description:
       "Create a user-friendly platform to manage health insurance policies. Features include policy registration, claim processing, and premium payment.",
     technologies: ["HTML", "CSS", "JavaScript", "MySQL"],
+  },
+  {
+    title: "Study Plan",
+    image: project5, // New project
+    description:
+      "I developed a study planning application using Vite and React, featuring task scheduling, deadline tracking, and priority management. The app includes a calendar interface for efficient study organization and time management.",
+    technologies: ["React", "vite"],
+  },
+  {
+    title: "Weather Forecast App",
+    image: project6, // New project
+    description:
+      "A mobile-friendly weather application providing real-time weather updates based on user location. Features include daily forecasts and weather alerts.",
+    technologies: ["React Native", "OpenWeather API", "JavaScript"],
   },
 ];
 
